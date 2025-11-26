@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f7f7f7;
+      color: #333;
+    }
+    header {
+      background: #222;
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.4rem;
+    }
+    header p {
+      margin-top: 10px;
+      font-size: 1.1rem;
+      opacity: 0.8;
+    }
+    .section {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+    h2 {
+      border-left: 5px solid #444;
+      padding-left: 10px;
+      margin-bottom: 20px;
+    }
+    .skills ul {
+      list-style: none;
+      padding: 0;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 10px;
+    }
+    .skills li {
+      background: #fff;
+      padding: 10px;
+      border-radius: 6px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .works .item {
+      background: #fff;
+      padding: 20px;
+      border-radius: 6px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+      margin-bottom: 20px;
+    }
+    .works .item a {
+      color: #0066cc;
+      text-decoration: none;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #eee;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>石川尚樹</h1>
+    <p>よろしくお願いします！。</p>
+  </header>
+
+  <section class="section skills">
+    <h2>スキル</h2>
+    <ul>
+      <li>HTML / CSS</li>
+      <li>JavaScript</li>
+      <li>Python</li>
+      <li>デザイン</li>
+    </ul>
+  </section>
+
+  <section class="section works">
+    <h2>制作物</h2>
+    <div class="item">
+      <h3>作品タイトル 1</h3>
+      <p>作品の概要説明を記述します。</p>
+      <p><a href="#">→ 作品リンク</a></p>
+    </div>
+    <div class="item">
+      <h3>作品タイトル 2</h3>
+      <p>作品の概要説明を記述します。</p>
+      <p><a href="#">→ 作品リンク</a></p>
+    </div>
+  </section>
+
+  <footer>
+    © 2025 My Portfolio
+  </footer>
+</body>
+</html>
